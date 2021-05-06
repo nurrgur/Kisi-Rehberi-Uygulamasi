@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UyelerModel3StoreContainer" CdmEntityContainer="UyelerEntities3">
+    <EntitySetMapping Name="KullaniciBilgileri">
+      <EntityTypeMapping TypeName="UyelerModel3.KullaniciBilgileri">
+        <MappingFragment StoreEntitySet="KullaniciBilgileri">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="KullaniciSifresi" ColumnName="KullaniciSifresi" />
+          <ScalarProperty Name="MailAdresi" ColumnName="MailAdresi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RehberBilgileri">
+      <EntityTypeMapping TypeName="UyelerModel3.RehberBilgileri">
+        <MappingFragment StoreEntitySet="RehberBilgileri">
+          <ScalarProperty Name="TelefonNo" ColumnName="TelefonNo" />
+          <ScalarProperty Name="İsim" ColumnName="İsim" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
